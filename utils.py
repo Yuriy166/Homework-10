@@ -25,5 +25,3 @@ def get_by_skill(skill_name, data):
         if skill_name in item.skills:
             arr.append(item)
     return arr
-
-print(load_candidates(get_all('arr')))
